@@ -1,0 +1,2 @@
+class CreateRelationShip < ApplicationRecord
+end
