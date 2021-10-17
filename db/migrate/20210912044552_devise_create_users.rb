@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class DeviseCreateUsers < ActiveRecord::Migration[5.2]
-  def changes
+  def change
     create_table :users do |t|
       ## Database authenticatable
       t.string :email,              null: false, default: ""
